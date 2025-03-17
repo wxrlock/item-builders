@@ -3,6 +3,7 @@ package io.github.wxrlock.item.builders;
 import org.bukkit.Material;
 import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemFlag;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.Collection;
@@ -143,6 +144,8 @@ public interface StackBuilder {
         if (condition) remFlags(flags);
         return this;
     }
+
+    ItemStack build();
 
     ItemMeta getItemMeta();
 

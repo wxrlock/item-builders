@@ -232,6 +232,7 @@ public class ItemBuilder implements StackBuilder {
         return this;
     }
 
+    @Override
     public ItemStack build() {
         item.setItemMeta(meta);
         return item;
