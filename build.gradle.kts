@@ -12,11 +12,6 @@ repositories {
 }
 
 dependencies {
-    compileOnly("org.projectlombok:lombok:1.18.36")
-    annotationProcessor("org.projectlombok:lombok:1.18.36")
-
-    compileOnly("org.jetbrains:annotations:24.0.0")
-
     compileOnly("org.spigotmc:spigot:1.8.8-R0.1-SNAPSHOT")
 }
 
